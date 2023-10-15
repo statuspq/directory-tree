@@ -1,6 +1,6 @@
-import { IMenu } from "./types";
+import { IMenuItem } from "./types";
 
-export const MENU_LIST: IMenu[] = [
+export const MENU_LIST: IMenuItem[] = [
   { id: 1, name: "src", isDir: true },
   { id: 2, name: "public", isDir: true },
   { id: 3, name: "scripts", isDir: true },
